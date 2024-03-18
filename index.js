@@ -6,6 +6,7 @@ require("dotenv").config();
 const PORT = process.env.PORT || 4000;
 
 //middleware to parse json request body
+// middleware function that parses incoming requests with JSON payloads.
 app.use(express.json());
 
 
